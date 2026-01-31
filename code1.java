@@ -1,12 +1,22 @@
 
-public  class code1 {
-   
-    public  static  void add(int x,int y){
-            int ans=x+y;
-            System.out.println(ans);
+class Animal{
+    void animal(){
+        System.out.println("cat");
+    }
+}
+class Cat extends Animal{
+    void meow(){
+        System.out.println("meow");
 
     }
+
+}
+
+public class code1{
     public static void main(String[] args) {
-       add(20, 30);
+        Cat c1=new Cat();
+        c1.meow();
+        c1.animal();
     }
+
 }
