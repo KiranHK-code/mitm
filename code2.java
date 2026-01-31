@@ -1,10 +1,12 @@
+
 public class code2 {
+    public static int add(int x,int y) {
+        int ans=x+y;
+        return ans;
+
+    }
     public static void main(String[] args) {
-        int a;
-        a=5;
-        double b;
-        b=a;
-        System.out.println(a);
-        System.out.println(b);
+       int res= add(30, 20);
+       System.out.println(res);
     }
 }
